@@ -26,7 +26,7 @@ public enum Actividad {
 
     @Override
     public String toString() {
-        return "Actividad{" + "ordinal=" + ordinal() + ", name=" + name() + ", status=" + status + '}';
+        return "Actividad" + "ordinal=" + ordinal() + " name=" + name() + ", status=" + status;
     }
     
     

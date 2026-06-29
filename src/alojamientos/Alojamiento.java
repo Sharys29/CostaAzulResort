@@ -8,7 +8,7 @@ package alojamientos;
  *
  * @author Student
  */
-public class Alojamiento {
+public abstract class Alojamiento {
     
     protected String codigo;
     protected String nombre;
@@ -58,7 +58,7 @@ public class Alojamiento {
 
     @Override
     public String toString() {
-        return "Alojamiento" + "codigo=" + codigo + ", nombre=" + nombre + " capamax=" + capamax + ", precio=" + precio + " estado=" + estado;
+        return "Alojamiento" + "codigo=" + codigo + ", nombre=" + nombre + " capamax=" + capamax + " precio=" + precio + " estado=" + estado;
     }
     
     

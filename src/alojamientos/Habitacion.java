@@ -8,6 +8,15 @@ package alojamientos;
  *
  * @author Student
  */
-public class Habitacion {
+public class Habitacion extends Alojamiento{
+    
+    private String numPiso;
+    private boolean balcon;
+
+    public Habitacion(String codigo, String nombre, String capamax, String precio, boolean estado) {
+        super(codigo, nombre, capamax, precio, estado);
+    }
+    
+            
     
 }
