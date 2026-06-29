@@ -8,6 +8,27 @@ package actividades;
  *
  * @author Student
  */
-public enum Enum {
+public enum Actividad {
+    
+    CAMINATAS("caminatas"),
+    COCINA("Cocina"),
+    RECORRIDOS("Recorridos");
+    
+    private final String status;
+    
+    private Actividad(status);{
+    this.status = status;
+}
+    public String getStatus();{
+    return status;
+    
+}
+
+    @Override
+    public String toString() {
+        return "Actividad{" + "ordinal=" + ordinal() + ", name=" + name() + ", status=" + status + '}';
+    }
+    
+    
     
 }
